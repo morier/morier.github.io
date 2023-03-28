@@ -1,0 +1,11 @@
+.team-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+  grid-template-rows: repeat(2, 1fr); /* Two rows with equal height */
+  gap: 20px; /* Gap between items */
+}
+
+.team-grid-item {
+  border: 1px solid #eee; /* Optional: adds a border around each item */
+  text-align: center;
+}
